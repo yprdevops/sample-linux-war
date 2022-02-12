@@ -75,12 +75,11 @@
           <groupId>org.apache.myfaces.portlet-bridge</groupId>
           <artifactId>portlet-bridge-impl</artifactId>
           <version>${portlet-bridge.version}</version>
-        </dependency>
-    </dependencies>
-          <properties>
+     </dependency>
+      <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
-          </properties>
+      </properties>
     <build>
         <plugins>
           <plugin>
