@@ -77,10 +77,10 @@
           <version>${portlet-bridge.version}</version>
         </dependency>
     </dependencies>
-        <properties>
+          <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
-        </properties>
+          </properties>
     <build>
         <plugins>
           <plugin>
@@ -210,10 +210,14 @@
                     <artifactId>myfaces-impl</artifactId>
                     <version>${jsf-myfaces.version}</version>
                     <scope>runtime</scope>
-                </dependency> 
+            </dependency>
   
-            </dependencies>
+    
+             
+             
+        </dependencies>
         </profile>
+     
         <profile>
             <!-- Active adding -Djsf=ri when execute maven goals. -->
             <id>jsf-ri</id>
