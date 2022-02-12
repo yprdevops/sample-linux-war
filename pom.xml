@@ -77,7 +77,10 @@
           <version>${portlet-bridge.version}</version>
         </dependency>
     </dependencies>
- 
+        <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+        </properties>
     <build>
         <plugins>
           <plugin>
@@ -208,10 +211,7 @@
                     <version>${jsf-myfaces.version}</version>
                     <scope>runtime</scope>
                 </dependency> 
-     <properties>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
-    </properties>
+  
             </dependencies>
         </profile>
         <profile>
