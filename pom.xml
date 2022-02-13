@@ -76,9 +76,10 @@
           <artifactId>portlet-bridge-impl</artifactId>
           <version>${portlet-bridge.version}</version>
      </dependency>
-     <dependency>
-    <build>
+     
+ 
         <plugins>
+            
           <plugin>
             <artifactId>maven-jdev-plugin</artifactId>
             <groupId>org.apache.myfaces.trinidadbuild</groupId>
